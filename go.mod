@@ -76,7 +76,7 @@ require (
 	cloud.google.com/go/bigtable v1.18.1
 	cloud.google.com/go/iam v0.8.0
 	cloud.google.com/go/scheduler v1.7.0
-	github.com/selefra/selefra-provider-sdk v0.0.18
+	github.com/selefra/selefra-provider-sdk v0.0.22
 	github.com/selefra/selefra-utils v0.0.2
 	github.com/spf13/viper v1.13.0
 )
