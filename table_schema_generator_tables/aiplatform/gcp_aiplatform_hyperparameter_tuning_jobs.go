@@ -32,7 +32,7 @@ func (x *TableGcpAiplatformHyperparameterTuningJobsGenerator) GetVersion() uint6
 }
 
 func (x *TableGcpAiplatformHyperparameterTuningJobsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAiplatformHyperparameterTuningJobsGenerator) GetDataSource() *schema.DataSource {

@@ -30,7 +30,7 @@ func (x *TableGcpVideotranscoderJobTemplatesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpVideotranscoderJobTemplatesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpVideotranscoderJobTemplatesGenerator) GetDataSource() *schema.DataSource {

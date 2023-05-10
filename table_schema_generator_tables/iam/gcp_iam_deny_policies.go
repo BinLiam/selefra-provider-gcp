@@ -31,7 +31,7 @@ func (x *TableGcpIamDenyPoliciesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpIamDenyPoliciesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpIamDenyPoliciesGenerator) GetDataSource() *schema.DataSource {

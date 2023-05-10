@@ -32,7 +32,7 @@ func (x *TableGcpAiplatformDataLabelingJobsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpAiplatformDataLabelingJobsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAiplatformDataLabelingJobsGenerator) GetDataSource() *schema.DataSource {

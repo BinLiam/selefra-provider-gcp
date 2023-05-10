@@ -29,7 +29,7 @@ func (x *TableGcpBigtableadminBackupsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBigtableadminBackupsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBigtableadminBackupsGenerator) GetDataSource() *schema.DataSource {

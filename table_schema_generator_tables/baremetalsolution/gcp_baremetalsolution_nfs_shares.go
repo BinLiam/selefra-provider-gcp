@@ -30,7 +30,7 @@ func (x *TableGcpBaremetalsolutionNfsSharesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBaremetalsolutionNfsSharesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBaremetalsolutionNfsSharesGenerator) GetDataSource() *schema.DataSource {

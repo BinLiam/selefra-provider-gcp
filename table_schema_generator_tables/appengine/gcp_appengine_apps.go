@@ -29,7 +29,7 @@ func (x *TableGcpAppengineAppsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpAppengineAppsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAppengineAppsGenerator) GetDataSource() *schema.DataSource {

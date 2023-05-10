@@ -28,7 +28,7 @@ func (x *TableGcpCloudschedulerLocationsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpCloudschedulerLocationsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpCloudschedulerLocationsGenerator) GetDataSource() *schema.DataSource {

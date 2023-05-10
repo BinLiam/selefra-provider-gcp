@@ -28,7 +28,7 @@ func (x *TableGcpArtifactregistryLocationsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpArtifactregistryLocationsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpArtifactregistryLocationsGenerator) GetDataSource() *schema.DataSource {

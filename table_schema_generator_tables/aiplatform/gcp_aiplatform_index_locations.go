@@ -31,7 +31,7 @@ func (x *TableGcpAiplatformIndexLocationsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpAiplatformIndexLocationsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAiplatformIndexLocationsGenerator) GetDataSource() *schema.DataSource {

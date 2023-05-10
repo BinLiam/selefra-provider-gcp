@@ -31,7 +31,7 @@ func (x *TableGcpBillingBudgetsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBillingBudgetsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBillingBudgetsGenerator) GetDataSource() *schema.DataSource {

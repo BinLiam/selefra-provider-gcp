@@ -30,7 +30,7 @@ func (x *TableGcpLivestreamInputsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpLivestreamInputsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpLivestreamInputsGenerator) GetDataSource() *schema.DataSource {

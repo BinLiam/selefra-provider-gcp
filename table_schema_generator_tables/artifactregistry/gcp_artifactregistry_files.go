@@ -30,7 +30,7 @@ func (x *TableGcpArtifactregistryFilesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpArtifactregistryFilesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpArtifactregistryFilesGenerator) GetDataSource() *schema.DataSource {

@@ -30,7 +30,7 @@ func (x *TableGcpVmmigrationSourceMigratingVmCutoverJobsGenerator) GetVersion() 
 }
 
 func (x *TableGcpVmmigrationSourceMigratingVmCutoverJobsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpVmmigrationSourceMigratingVmCutoverJobsGenerator) GetDataSource() *schema.DataSource {

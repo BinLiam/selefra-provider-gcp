@@ -30,7 +30,7 @@ func (x *TableGcpAppengineAuthorizedDomainsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpAppengineAuthorizedDomainsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAppengineAuthorizedDomainsGenerator) GetDataSource() *schema.DataSource {

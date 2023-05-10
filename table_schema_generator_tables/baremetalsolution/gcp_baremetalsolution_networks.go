@@ -30,7 +30,7 @@ func (x *TableGcpBaremetalsolutionNetworksGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBaremetalsolutionNetworksGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBaremetalsolutionNetworksGenerator) GetDataSource() *schema.DataSource {

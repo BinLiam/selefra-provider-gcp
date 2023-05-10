@@ -30,7 +30,7 @@ func (x *TableGcpWorkflowsWorkflowsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpWorkflowsWorkflowsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpWorkflowsWorkflowsGenerator) GetDataSource() *schema.DataSource {

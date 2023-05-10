@@ -31,7 +31,7 @@ func (x *TableGcpDomainsRegistrationsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpDomainsRegistrationsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpDomainsRegistrationsGenerator) GetDataSource() *schema.DataSource {

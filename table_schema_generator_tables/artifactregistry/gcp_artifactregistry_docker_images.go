@@ -30,7 +30,7 @@ func (x *TableGcpArtifactregistryDockerImagesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpArtifactregistryDockerImagesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpArtifactregistryDockerImagesGenerator) GetDataSource() *schema.DataSource {

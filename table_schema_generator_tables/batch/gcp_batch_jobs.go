@@ -30,7 +30,7 @@ func (x *TableGcpBatchJobsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBatchJobsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBatchJobsGenerator) GetDataSource() *schema.DataSource {

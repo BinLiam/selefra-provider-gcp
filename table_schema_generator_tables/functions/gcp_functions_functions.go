@@ -30,7 +30,7 @@ func (x *TableGcpFunctionsFunctionsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpFunctionsFunctionsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpFunctionsFunctionsGenerator) GetDataSource() *schema.DataSource {

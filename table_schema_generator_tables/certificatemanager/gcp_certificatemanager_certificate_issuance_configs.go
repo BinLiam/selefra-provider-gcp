@@ -30,7 +30,7 @@ func (x *TableGcpCertificatemanagerCertificateIssuanceConfigsGenerator) GetVersi
 }
 
 func (x *TableGcpCertificatemanagerCertificateIssuanceConfigsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpCertificatemanagerCertificateIssuanceConfigsGenerator) GetDataSource() *schema.DataSource {

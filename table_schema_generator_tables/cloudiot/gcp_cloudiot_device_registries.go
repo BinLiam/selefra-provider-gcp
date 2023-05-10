@@ -31,7 +31,7 @@ func (x *TableGcpCloudiotDeviceRegistriesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpCloudiotDeviceRegistriesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpCloudiotDeviceRegistriesGenerator) GetDataSource() *schema.DataSource {

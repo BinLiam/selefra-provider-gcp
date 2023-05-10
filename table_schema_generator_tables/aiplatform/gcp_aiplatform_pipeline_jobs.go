@@ -32,7 +32,7 @@ func (x *TableGcpAiplatformPipelineJobsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpAiplatformPipelineJobsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAiplatformPipelineJobsGenerator) GetDataSource() *schema.DataSource {

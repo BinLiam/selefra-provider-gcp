@@ -30,7 +30,7 @@ func (x *TableGcpTranslateGlossariesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpTranslateGlossariesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpTranslateGlossariesGenerator) GetDataSource() *schema.DataSource {

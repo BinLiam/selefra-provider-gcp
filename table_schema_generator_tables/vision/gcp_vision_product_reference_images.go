@@ -30,7 +30,7 @@ func (x *TableGcpVisionProductReferenceImagesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpVisionProductReferenceImagesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpVisionProductReferenceImagesGenerator) GetDataSource() *schema.DataSource {

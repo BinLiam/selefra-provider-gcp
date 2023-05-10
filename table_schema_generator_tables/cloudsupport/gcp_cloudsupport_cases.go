@@ -28,7 +28,7 @@ func (x *TableGcpCloudsupportCasesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpCloudsupportCasesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpCloudsupportCasesGenerator) GetDataSource() *schema.DataSource {

@@ -31,7 +31,7 @@ func (x *TableGcpVpcaccessConnectorsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpVpcaccessConnectorsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpVpcaccessConnectorsGenerator) GetDataSource() *schema.DataSource {

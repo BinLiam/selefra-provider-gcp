@@ -30,7 +30,7 @@ func (x *TableGcpVpcaccessLocationsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpVpcaccessLocationsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpVpcaccessLocationsGenerator) GetDataSource() *schema.DataSource {

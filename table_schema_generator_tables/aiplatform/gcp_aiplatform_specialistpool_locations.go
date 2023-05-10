@@ -31,7 +31,7 @@ func (x *TableGcpAiplatformSpecialistpoolLocationsGenerator) GetVersion() uint64
 }
 
 func (x *TableGcpAiplatformSpecialistpoolLocationsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAiplatformSpecialistpoolLocationsGenerator) GetDataSource() *schema.DataSource {

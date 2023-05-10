@@ -32,7 +32,7 @@ func (x *TableGcpWebsecurityscannerScanConfigScanRunFindingsGenerator) GetVersio
 }
 
 func (x *TableGcpWebsecurityscannerScanConfigScanRunFindingsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpWebsecurityscannerScanConfigScanRunFindingsGenerator) GetDataSource() *schema.DataSource {

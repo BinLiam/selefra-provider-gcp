@@ -32,7 +32,7 @@ func (x *TableGcpAiplatformTensorboardsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpAiplatformTensorboardsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAiplatformTensorboardsGenerator) GetDataSource() *schema.DataSource {

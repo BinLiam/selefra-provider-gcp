@@ -31,7 +31,7 @@ func (x *TableGcpRunServicesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpRunServicesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpRunServicesGenerator) GetDataSource() *schema.DataSource {

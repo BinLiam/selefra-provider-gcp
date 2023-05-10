@@ -30,7 +30,7 @@ func (x *TableGcpClouddeployTargetsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpClouddeployTargetsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpClouddeployTargetsGenerator) GetDataSource() *schema.DataSource {

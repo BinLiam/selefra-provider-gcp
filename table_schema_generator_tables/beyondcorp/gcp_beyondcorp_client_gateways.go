@@ -30,7 +30,7 @@ func (x *TableGcpBeyondcorpClientGatewaysGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBeyondcorpClientGatewaysGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBeyondcorpClientGatewaysGenerator) GetDataSource() *schema.DataSource {

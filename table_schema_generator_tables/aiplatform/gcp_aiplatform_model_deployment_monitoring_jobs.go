@@ -32,7 +32,7 @@ func (x *TableGcpAiplatformModelDeploymentMonitoringJobsGenerator) GetVersion() 
 }
 
 func (x *TableGcpAiplatformModelDeploymentMonitoringJobsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAiplatformModelDeploymentMonitoringJobsGenerator) GetDataSource() *schema.DataSource {

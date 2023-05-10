@@ -30,7 +30,7 @@ func (x *TableGcpLoggingSinksGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpLoggingSinksGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpLoggingSinksGenerator) GetDataSource() *schema.DataSource {

@@ -28,7 +28,7 @@ func (x *TableGcpBigqueryTablesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBigqueryTablesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBigqueryTablesGenerator) GetDataSource() *schema.DataSource {

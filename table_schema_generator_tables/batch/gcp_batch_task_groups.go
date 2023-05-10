@@ -30,7 +30,7 @@ func (x *TableGcpBatchTaskGroupsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBatchTaskGroupsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBatchTaskGroupsGenerator) GetDataSource() *schema.DataSource {

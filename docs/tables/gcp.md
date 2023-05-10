@@ -1,9 +1,9 @@
-# Provider: Gcp
+# Provider: gcp
 
 ## Latest Version 
 
 ```
-v0.0.6
+v0.1.0
 ```
 ## Description 
 

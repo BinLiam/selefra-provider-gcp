@@ -30,7 +30,7 @@ func (x *TableGcpIamRolesGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpIamRolesGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpIamRolesGenerator) GetDataSource() *schema.DataSource {

@@ -30,7 +30,7 @@ func (x *TableGcpVmmigrationGroupsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpVmmigrationGroupsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpVmmigrationGroupsGenerator) GetDataSource() *schema.DataSource {

@@ -32,7 +32,7 @@ func (x *TableGcpAiplatformBatchPredictionJobsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpAiplatformBatchPredictionJobsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAiplatformBatchPredictionJobsGenerator) GetDataSource() *schema.DataSource {

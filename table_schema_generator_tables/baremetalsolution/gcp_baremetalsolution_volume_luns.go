@@ -30,7 +30,7 @@ func (x *TableGcpBaremetalsolutionVolumeLunsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBaremetalsolutionVolumeLunsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBaremetalsolutionVolumeLunsGenerator) GetDataSource() *schema.DataSource {

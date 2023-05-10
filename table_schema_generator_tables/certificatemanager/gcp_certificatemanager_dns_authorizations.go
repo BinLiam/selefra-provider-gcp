@@ -30,7 +30,7 @@ func (x *TableGcpCertificatemanagerDnsAuthorizationsGenerator) GetVersion() uint
 }
 
 func (x *TableGcpCertificatemanagerDnsAuthorizationsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpCertificatemanagerDnsAuthorizationsGenerator) GetDataSource() *schema.DataSource {

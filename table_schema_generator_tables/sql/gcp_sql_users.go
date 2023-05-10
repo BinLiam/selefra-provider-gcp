@@ -28,7 +28,7 @@ func (x *TableGcpSqlUsersGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpSqlUsersGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpSqlUsersGenerator) GetDataSource() *schema.DataSource {

@@ -30,7 +30,7 @@ func (x *TableGcpApikeysKeysGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpApikeysKeysGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpApikeysKeysGenerator) GetDataSource() *schema.DataSource {

@@ -28,7 +28,7 @@ func (x *TableGcpBigqueryDatasetsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBigqueryDatasetsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBigqueryDatasetsGenerator) GetDataSource() *schema.DataSource {

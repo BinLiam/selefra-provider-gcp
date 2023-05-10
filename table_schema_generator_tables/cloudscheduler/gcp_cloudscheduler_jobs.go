@@ -31,7 +31,7 @@ func (x *TableGcpCloudschedulerJobsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpCloudschedulerJobsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpCloudschedulerJobsGenerator) GetDataSource() *schema.DataSource {

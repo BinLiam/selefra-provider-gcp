@@ -30,7 +30,7 @@ func (x *TableGcpBinaryauthorizationAssertorsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpBinaryauthorizationAssertorsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpBinaryauthorizationAssertorsGenerator) GetDataSource() *schema.DataSource {

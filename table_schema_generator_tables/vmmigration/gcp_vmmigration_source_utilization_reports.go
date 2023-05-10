@@ -30,7 +30,7 @@ func (x *TableGcpVmmigrationSourceUtilizationReportsGenerator) GetVersion() uint
 }
 
 func (x *TableGcpVmmigrationSourceUtilizationReportsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpVmmigrationSourceUtilizationReportsGenerator) GetDataSource() *schema.DataSource {

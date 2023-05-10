@@ -32,7 +32,7 @@ func (x *TableGcpAiplatformModelsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpAiplatformModelsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpAiplatformModelsGenerator) GetDataSource() *schema.DataSource {

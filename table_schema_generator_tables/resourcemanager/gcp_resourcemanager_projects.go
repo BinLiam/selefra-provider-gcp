@@ -29,7 +29,7 @@ func (x *TableGcpResourcemanagerProjectsGenerator) GetVersion() uint64 {
 }
 
 func (x *TableGcpResourcemanagerProjectsGenerator) GetOptions() *schema.TableOptions {
-return &schema.TableOptions{}
+	return &schema.TableOptions{}
 }
 
 func (x *TableGcpResourcemanagerProjectsGenerator) GetDataSource() *schema.DataSource {
